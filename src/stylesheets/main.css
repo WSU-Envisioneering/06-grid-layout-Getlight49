@@ -1,1 +1,14 @@
-/* Your styles go here */
+nav{
+    display: grid;
+    justify-content: center;
+    grid-row: 1/ span 2;
+}
+header, footer{
+    background-color: orange;
+    display: grid;
+    justify-content: center;
+}
+aside{
+   background-color: gray; 
+   display: grid;
+}
