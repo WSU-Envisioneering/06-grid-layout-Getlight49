@@ -1,14 +1,20 @@
 nav{
     display: grid;
     justify-content: center;
-    grid-row: 1/ span 2;
+    grid-template-columns: repeat(2, 1fr);
+
 }
 header, footer{
-    background-color: orange;
+    background-color: rgb(117, 168, 133);
     display: grid;
     justify-content: center;
 }
 aside{
-   background-color: gray; 
+   background-color: rgb(241, 238, 238); 
    display: grid;
+   grid-template-columns: repeat(1, 1fr);
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
